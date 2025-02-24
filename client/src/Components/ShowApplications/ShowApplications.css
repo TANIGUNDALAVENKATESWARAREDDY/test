@@ -1,0 +1,124 @@
+.show-applications-top-path{
+    padding-top: 20px;
+}
+.show-applications-top-path>p{
+    font-size: 0.85rem;
+    text-transform: capitalize;
+}
+
+.show-applications-top-path>p span{
+    font-weight: 500;
+    color: #042954;
+}
+
+/* showApplication-select-appstatus */
+.showApplication-select-appstatus{
+    color: white;
+    outline: none;
+    border: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 5px;
+}
+.showApplication-select-appstatus option{
+    background-color: white;
+    color: black;
+}
+
+/* showapplication-approved-status-p */
+.showapplication-approved-status-p{
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 1px 8px;
+    width: fit-content;
+    /* margin: auto; */
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #007948, #008045, #008741, #008d3c, #009435);
+    text-transform: capitalize;
+    user-select: none;
+}
+
+/* show-applications-whole-table */
+.show-applications-whole-table{
+    width: 100%;
+    background-color: white;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.show-application-top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 15px;
+    padding-top: 17px;
+}
+
+.show-application-top-header>p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.show-application-search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    padding-left: 5px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.show-application-search-bar>input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 0.75rem;
+}
+
+/* here is the css for show all applications table */
+.show-application-whole-inner-table{
+    overflow-x: scroll;
+}
+.show-application-whole-inner-table>table{
+    width: 100%;
+    background-color: white;
+    margin-top: 7px;
+    border-collapse: collapse;
+    overflow: scroll;
+}
+
+.show-application-whole-inner-table>table thead{
+    border-top: 1px solid rgb(230,230,230);
+    border-bottom: 1px solid rgb(230,230,230);
+    height: 40px;
+}
+
+.show-application-whole-inner-table>table thead th{
+    text-align: left;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(108, 108, 108);
+    white-space: nowrap;
+}
+
+.show-application-whole-inner-table>table tbody tr{
+    height: 30px;
+}
+.show-application-whole-inner-table>table tbody tr:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}
+.show-application-whole-inner-table>table tbody td{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8rem;
+}

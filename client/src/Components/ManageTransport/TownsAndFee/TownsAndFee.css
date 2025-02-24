@@ -1,0 +1,229 @@
+.townsandfee-container{
+    width: 100%;
+    min-height: 200px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* towns and fee header */
+.townsandfee-header{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #042954;
+}
+
+/* townsandfee-inner-con */
+.townsandfee-inner-con{
+    max-width: 1100px;
+    width:100%;
+    margin: auto;
+}
+
+/* townsandfee-inner-fun */
+.townsandfee-inner-fun{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* townsandfee-inner-fun-search */
+.townsandfee-inner-fun-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 10px;
+    background-color: #e9e9e9e5;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.townsandfee-inner-fun-search>input{
+    min-width:200px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 0.85rem;
+}
+
+.townsandfee-inner-fun-villages>p{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.townsandfee-inner-fun-villages>p span{
+    margin-left: 3px;
+    color: #0f5faf;
+}
+
+/* table */
+.townsandfee-inner-table{
+    overflow-x: scroll;
+}
+.townsandfee-inner-table>table{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.townsandfee-inner-table>table thead tr{
+    background: #e2e2e2cb;
+}
+
+.townsandfee-inner-table>table thead tr th{
+    /* height: 45px; */
+    /* background-color: red; */
+    text-align: left;
+    font-size: 1.01rem;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.townsandfee-inner-table>table tbody tr{
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.townsandfee-inner-table>table tbody tr td{
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 0.95rem;
+    color: rgb(100, 100, 100);
+    font-weight: 400;
+}
+
+/* townsandfee-table-actions */
+.townsandfee-table-actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+/* townsandfee-add-village */
+.townsandfee-add-village{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.townsandfee-add-village-inner{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+}
+
+.townsandfee-add-village-inner:hover{
+    background-color: #0f5faf;
+}
+
+.townsandfee-add-village-inner>p{
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+/* townsandfee-addvillage-form */
+.townsandfee-addvillage-form{
+    padding: 20px;
+    min-width: 380px;
+}
+
+.townsandfee-addvillage-form-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.townsandfee-addvillage-form-inner-cross{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.townsandfee-addvillage-form-each{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.townsandfee-addvillage-form-each>label{
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: black;
+}
+
+.townsandfee-addvillage-form-each>input{
+    background-color: #e9e9e9e5;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.townsandfee-addvillage-form-inner>button{
+    background-color: #1976d2;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.townsandfee-addvillage-form-inner>button:hover{
+    background-color: #0f5faf;
+    cursor: pointer;
+}
+@media screen and (max-width:460px){
+    .townsandfee-addvillage-form{
+        min-width: 250px;
+        width: 100%;
+    }
+    .townsandfee-inner-fun-search>input{
+        min-width: 50px;
+        width:110px;
+    }
+
+    .townsandfee-inner-table>table thead tr th{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:360px){
+    .townsandfee-inner-fun{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .townsandfee-inner-fun-search{
+        width: 100%;
+    }
+    .townsandfee-inner-fun-search>input{
+        width: 100%;
+    }
+
+    .townsandfee-addvillage-form{
+        min-width: 200px;
+        width: 100%;
+    }
+}

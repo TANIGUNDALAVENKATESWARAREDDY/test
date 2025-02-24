@@ -1,0 +1,188 @@
+.createadmin_con {
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.createadmin_heading h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.createadmin_form h3{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #1976d2;
+}
+
+.createadmin_input-field{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin: 4px 0;
+}
+
+.createadmin_personalinfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.createadmin_input-field label{
+    font-weight: 500;
+    color: #6A6A6A;
+    font-size: 0.85rem;
+}
+
+.createadmin_input-field input,
+.createadmin_input-field select,
+.createadmin_input-field textarea{
+    font-weight: 400;
+    color: #333;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    border:none;
+    /* padding: 5px; */
+    padding-left: 5px;
+    height: 30px;
+    margin: 8px 0;
+    outline: none;
+    /* font-size: 14px; */
+    background-color: #f1f1f6;
+}
+
+.createadmin_input-field textarea{
+    height: 128px;
+}
+
+.createadmin_textarea{
+    display: flex;
+    gap: 15px;
+}
+
+.createadmin_password{
+    display: flex;
+    justify-content: space-evenly;
+}
+.createadmin_sumbit{
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+     margin: 25px 0;
+    background-color: #4070f4;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 880px) {
+    .createadmin_con {
+        padding: 15px;
+    }
+
+    .createadmin_heading h1{
+        font-size: 20px;
+    }
+
+    .createadmin_personalinfo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .createadmin_input-field {
+        width: 100%; 
+    }
+
+    .createadmin_input-field textarea{
+        height: 69px;
+        font-size: 10px;
+    }
+
+    .createadmin_input-field label {
+        font-size: 11px; 
+    }
+
+    .createadmin_input-field input,
+    .createadmin_input-field select {
+        font-size: 11px; 
+        padding: 3px 5px;
+        height: 30px; 
+    }
+
+    /* .createadmin_personalinfo .createadmin_input-field:nth-child(1),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(2),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(3) {
+        width: 29%; 
+        margin-bottom: 5px;
+    } */
+
+    /* .createadmin_personalinfo .createadmin_input-field:nth-child(4) {
+        width: 100%;
+    } */
+
+    .createadmin_personalinfo .createadmin_input-field:nth-child(1),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(2),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(3),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(4),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(6),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(7),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(8),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(9) {
+        width: 47%;
+    }
+
+    .createadmin_form h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .createadmin_textarea {
+        flex-direction: column;
+    }
+
+    .createadmin_heading {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .createadmin_personalinfo .createadmin_input-field:nth-child(1),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(2),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(3),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(4),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(6),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(7),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(8),
+    .createadmin_personalinfo .createadmin_input-field:nth-child(9) {
+        width: 100%;
+    }
+
+    .createadmin_form h3 {
+        margin-top: 5px;
+    }
+
+    .createadmin_heading h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .createadmin_personalinfo {
+        gap: 6px;
+    }
+
+    .createadmin_input-field input, .createadmin_input-field select, .createadmin_input-field textarea {
+        margin: 0px;
+    }
+}

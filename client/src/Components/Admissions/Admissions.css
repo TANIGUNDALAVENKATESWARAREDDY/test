@@ -1,0 +1,65 @@
+
+/* admissions status css */
+.admission-admstatus-completed,.admission-admstatus-pending,.admission-admstatus-rejected{
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 1px 8px;
+    width: fit-content;
+    /* margin: auto; */
+    border-radius: 20px;
+    color: white;
+    /* background-image: linear-gradient(to right, #007948, #008045, #008741, #008d3c, #009435); */
+    text-transform: capitalize;
+    user-select: none;
+}
+.admission-admstatus-completed{
+    background-image: linear-gradient(to right, #007948, #008045, #008741, #008d3c, #009435);
+}
+.admission-admstatus-pending{
+    background-image: linear-gradient(to right, #002deb, #0044f2, #0556f8, #1f68fc, #3478ff);
+}
+.admission-admstatus-rejected{
+    background-image: linear-gradient(to right, #be002a, #c5002d, #cd0030, #d40034, #dc0037);
+}
+
+/* admissions-actions */
+.admissions-actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+/* admissions-add-ol-admissions */
+.admissions-add-ol-admissions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: white; */
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+
+}
+.admissions-add-ol-admissions>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: -2px;
+}
+
+.admissions-add-ol-admissions-div:hover{
+    background-color: rgb(252, 252, 252);
+    color: #042954;
+}

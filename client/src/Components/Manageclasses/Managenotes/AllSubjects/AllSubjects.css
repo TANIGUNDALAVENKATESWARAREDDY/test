@@ -1,0 +1,50 @@
+.allsubjects-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.allsubjects-each{
+    min-height: 70px;
+    background-color: white;
+    border: 4px solid #17559f;
+    border-radius: 5px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    /* border-left: 2px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    transition: all 0.3s ease;
+}
+
+.allsubjects-each:hover{
+    box-shadow: rgba(23, 85, 159, 0.2) 0px 4px 12px;
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-color: red;
+}
+
+.allsubjects-each>p:nth-child(1){
+    font-size: 0.9rem;
+    /* font-weight: 500; */
+    text-transform: capitalize;
+}
+
+.allsubjects-each>p:nth-child(2){
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.allsubjects-each-subject-name{
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+}
+

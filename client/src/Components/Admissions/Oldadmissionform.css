@@ -1,0 +1,53 @@
+.admissionform-input-field>small{
+    margin-top: -4px;
+    font-style: italic;
+}
+/* transport-fee-details-status */
+.transport-fee-details-status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.transport-fee-details-status>label{
+    text-transform: capitalize;
+    font-size: 1rem;
+       
+}
+
+/* oldadmissionform-transportfee-con */
+.oldadmissionform-transportfee-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.oldadmissionform-transportfee-each{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    flex: 1;
+}
+
+.oldadmissionform-transportfee-each>label{
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.oldadmissionform-transportfee-each>input{
+    height: 30px;
+    border: 1px solid rgb(170,170,170);
+    border-radius: 5px;
+    padding-left: 5px;
+    outline: none;
+}
+
+@media screen and (max-width:425px){
+    .oldadmissionform-transportfee-con{
+        flex-direction: column;
+    }
+}

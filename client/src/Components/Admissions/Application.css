@@ -1,0 +1,239 @@
+.admission-con{
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.admission-form{
+    width: 1440px;
+    margin: auto;
+    min-height: 250px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 30px;
+}
+/* application-click-application-status */
+.application-click-application-status{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    color: #7B22FA;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+}
+.application-click-application-status>p{
+    cursor: pointer;
+}
+/* admission-form-header */
+.admission-form-header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: fit-content;
+}
+.admission-form-header>h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.admission-form-header>div{
+    width: 100%;
+    height: 3px;
+    background-color: #7B22FA;
+}
+/* admission-form-year-class */
+.admission-form-year-class{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.admission-form-year-class>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.admission-form-year-class>div label{
+    color: #4a4a4a;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 500;
+}
+.admission-form-year-class>div label span{
+    color: red;
+}
+.admission-form-year-class>div select{
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    height: 39px;
+    outline: none;
+    padding: 5px;
+}
+.admission-form-year-class>div input{
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    height: 39px;
+    outline: none;
+    padding: 5px;
+}
+/* admission-form-line */
+.admission-form-line{
+    width: 100%;
+    height: 1px;
+    background-color: silver;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+/* admission-form-personal-info-of-child */
+.admission-form-personal-info-of-child>h1{
+    color: #000;
+    font-family: 'poppins';
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* admission-form-three-column-div */
+.admission-form-three-column-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+.admission-form-three-column-div>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.admission-form-three-column-div>div label{
+    color: #4a4a4a;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 500;
+}
+.admission-form-three-column-div>div label span{
+    color: red;
+}
+.admission-form-three-column-div>div input{
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    height: 39px;
+    outline: none;
+    padding: 5px;
+}
+.admission-form-three-column-div>div select{
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    height: 39px;
+    outline: none;
+    padding: 5px;
+}
+/* submit button css */
+.admission-form>button{
+    width: fit-content;
+    padding: 10px 20px;
+    min-width: 250px;
+    background-color: #7B22FA;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* application info box */
+.application-info-box{
+    width: 600px;
+    min-height: 100px;
+    background-color: white;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.application-info-box-cross-btn{
+    position: absolute;
+    right: -25px;
+    top: -10px;
+}
+.application-info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 10px 20px;
+}
+.application-info-content>h1{
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.application-info-content>h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.application-info-content>h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0482df;
+}
+
+@media all and (max-width:1450px){
+    .admission-form{
+        width: 85%;
+    }
+}
+
+@media all and (max-width:980px){
+    .admission-form{
+        width: 90%;
+    }
+    .admission-form-header>h1{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width:850px){
+    .admission-form-three-column-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+@media all and (max-width:600px){
+    .admission-form-three-column-div{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: auto;
+    }
+    .admission-form-year-class{
+        flex-direction:column;
+    }
+    .application-info-box{
+        width: 80%;
+    }
+}

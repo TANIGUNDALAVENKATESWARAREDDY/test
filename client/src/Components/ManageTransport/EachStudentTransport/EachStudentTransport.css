@@ -1,0 +1,31 @@
+
+/* eachstudenttransport-stddata */
+.eachstudenttransport-stddata{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+
+.eachstudenttransport-stddata-each{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.eachstudenttransport-stddata-each>label{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.eachstudenttransport-stddata-each>p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+}

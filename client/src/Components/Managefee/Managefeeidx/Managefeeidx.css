@@ -1,0 +1,85 @@
+.managefee_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.managefee_banner img {
+    width: 100%;
+    min-height: 100px;
+}
+
+.managefee_text-overlay {
+    color: #1f64b8;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    z-index: 1; 
+    position: absolute; 
+}
+
+.managefee_con{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.managefee_feefeature{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: rgb(255,255,255);
+    background: linear-gradient(233deg, rgba(255,255,255,1) 60%, rgba(205,233,241,1) 100%);
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    /* margin-top: 30px; */
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkgrey;
+}
+
+
+.managefee_image{
+    text-align: center;
+}
+
+.managefee_image img{
+    height: 100px;
+    width: 100px;
+}
+
+.managefee_heading{
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width : 700px)  {
+    .managefee_image img {
+        height: 60px;
+        width: auto;
+    }
+
+    .managefee_feefeature {
+        width: 130px;
+        height: 138px;
+    }
+
+    .managefee_con{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

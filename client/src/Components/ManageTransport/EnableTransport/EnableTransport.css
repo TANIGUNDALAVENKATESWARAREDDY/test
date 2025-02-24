@@ -1,0 +1,198 @@
+.enabletransport-con{
+    min-height: 150px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 1px;
+}
+
+.enabletransport-con>h1{
+    padding-left: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    margin:10px 5px
+}
+
+/* enabletransport-input-getstd */
+.enabletransport-input-getstd{
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    padding: 5px 10px;
+}
+.enabletransport-input-getstd>input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f6;
+    padding-left: 10px;
+}
+.enabletransport-input-getstd>button{
+    white-space: nowrap;
+    padding: 4px 7px;
+    border: none;
+    text-transform: capitalize;
+    font-size: 0.85rem;
+    font-weight: 400;
+    background-color: #1976d2;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.enabletransport-input-getstd>button:hover{
+    background-color: #1360ad;
+}
+
+/* enabletransport-form-con */
+.enabletransport-form-con{
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.enabletransport-header{
+    margin-bottom: 5px;
+}
+.enabletransport-header>h1{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+/* enabletransport-all-input-fields */
+.enabletransport-all-input-fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.enabletransport-input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.enabletransport-input-field>label{
+    font-size: 0.89rem;
+    text-transform: capitalize;
+}
+
+.enabletransport-input-field>input{
+    border: none;
+    width: 100%;
+    background-color: #f1f1f6;
+    min-width: 200px;
+    height: 28px;
+    border-radius: 3px;
+    outline: none;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+/* enable and disable buttons */
+
+.enabletransport-disable-btn , .enabletransport-enable-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.enabletransport-disable-btn>p , .enabletransport-enable-btn>p{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+
+.enabletransport-disable-btn>button, .enabletransport-enable-btn>button{
+    border: none;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f5b402;
+    color: black;
+    cursor: pointer;
+}
+
+.enabletransport-enable-btn>button:hover{
+    background-color: #ffbb01;
+}
+
+.enabletransport-disable-btn>button{
+    background-color: red;
+    color: white;
+}
+
+.enabletransport-disable-btn>button:hover{
+    background-color: rgb(230, 52, 52);
+}
+
+/* enabletransport-enablebox */
+.enabletransport-enablebox{
+    min-width: 450px;
+    min-height: 150px;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.enabletransport-enablebox-closeicon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+
+.enabletransport-enablebox-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+
+.enabletransport-enablebox-btn button{
+    width: 100%;
+    padding: 4px 10px;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 3px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.enabletransport-enablebox-btn button:hover{
+    cursor: pointer;
+    background-color: #0a64be;
+}
+
+@media screen and (max-width:520px){
+    .enabletransport-enablebox{
+        min-width: 310px;
+        width: 100%;
+    }
+    .enabletransport-popup-wrap{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:380px){
+    .enabletransport-enablebox{
+        min-width: 270px;
+        width: 100%;
+    }
+    .enabletransport-popup-wrap{
+        flex-direction: column;
+    }
+}

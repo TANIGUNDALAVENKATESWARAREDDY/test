@@ -1,0 +1,84 @@
+.teachersallocation-heading{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    margin-top: 10px;
+    /* border-radius: 3px; */
+}
+
+.teachersallocation-all-subjects{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.teachersallocation-subject-teachers{
+    min-height: 70px;
+    background-color: white;
+    /* border-radius: 3px; */
+}
+
+.teacherallocation-subject-addbtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #bababa;
+}
+
+.teacherallocation-subject-addbtn>p{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #005ac5;
+}
+
+.teacherallocation-subject-addbtn>button{
+    border: none;
+    padding: 3px 7px;
+    /* background-color: #7db9ff; */
+    /* background-color: white; */
+    color: black;
+    border-radius: 3px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: 0.8rem;
+    font-weight: 400;
+    /* border-radius: 3px; */
+}
+
+/* teachersallocation-display-teachers */
+.teachersallocation-display-teachers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.teachersallocation-each-teacher{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: #f7f7f7;
+    width: fit-content;
+    padding: 3px 5px;
+    /* border-radius: 3px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    user-select: none;
+}
+
+.teachersallocation-each-teacher>p{
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+/* teacherallocation-react-select */

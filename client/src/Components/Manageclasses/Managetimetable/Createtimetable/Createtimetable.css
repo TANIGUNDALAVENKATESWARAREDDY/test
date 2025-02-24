@@ -1,0 +1,247 @@
+/* createtimetable-create-ttdiv */
+/* .createtimetable-create-ttdiv{
+    padding: 0px 10px;
+} */
+
+/* createtimetable-create-tt-header */
+.createtimetable-create-tt-header{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.createtimetable-create-tt-header>h2{
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.createtimetable-create-tt-sideheading{
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 7px;
+    color: #1268ca;
+}
+
+.create-timetable-create-tt-whole-div{
+    padding-top: 0px;
+    margin-top: 2px;
+}
+
+/* createtimetable-create-tt-classes-timings */
+
+.createtimetable-create-tt-classes-timings{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.createtimetable-create-tt-classes{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.createtimetable-create-tt-classes-each{
+    width: fit-content;
+    background-color: #fff;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.createtimetable-create-tt-classes-each>h1{
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #dfe8ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 35px;
+}
+
+.createtimetable-create-tt-classes-each>p{
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.createtimetable-create-tt-classes-each>p span{
+    color: red;
+}
+
+.createtimetable-create-tt-classes-each-time{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 70px;
+    padding: 0px 10px;
+}
+
+.createtimetable-create-tt-classes-each-time>div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.createtimetable-create-tt-classes-each-time>div label{
+    font-size: 0.80rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.createtimetable-create-tt-classes-each-time>div input{
+    /* border: 1px solid black; */
+    border: none;
+    background-color: #f1f1f6;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* days */
+.createtimetable-create-tt-monday{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 15px;
+    /* margin-bottom: 5px; */
+    text-transform: capitalize;
+    color: #1268ca;
+}
+
+.createtimetable-create-tt-whole-periods{
+    padding:10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.createtimetable-create-tt-monday-whole{
+    border: 1px solid #E6E6FA;
+    width: fit-content;
+    background-color: 	#E6E6FA;
+    border-radius: 3px;
+}
+
+.createtimetable-create-tt-tuesday-whole{
+    border: 1px solid 	#E0FFFF;
+    width: fit-content;
+    background-color:	#E0FFFF;
+    border-radius: 3px;
+}
+
+.createtimetable-create-tt-wednesday-whole{
+    border: 1px solid #FFE4E1;
+    width: fit-content;
+    background-color:#FFE4E1;
+    border-radius: 3px;
+}
+
+.createtimetable-create-tt-thursday-whole{
+    border: 1px solid #F0FFF0;
+    width: fit-content;
+    background-color: 	#F0FFF0;
+    border-radius: 3px;
+}
+
+.createtimetable-create-tt-friday-whole{
+    border: 1px solid #FFF0F5;
+    width: fit-content;
+    background-color: 	#FFF0F5;
+    border-radius: 3px;
+}
+
+.createtimetable-create-tt-saturday-whole{
+    border: 1px solid #F0F8FF;
+    width: fit-content;
+    background-color: 	#F0F8FF;
+    border-radius: 3px;
+}
+
+.createtimetable-create-tt-monday-whole>p, .createtimetable-create-tt-wednesday-whole>p,
+.createtimetable-create-tt-tuesday-whole>p,.createtimetable-create-tt-thursday-whole>p,
+.createtimetable-create-tt-friday-whole>p,.createtimetable-create-tt-saturday-whole>p{
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 2px;
+    text-transform: capitalize;
+}
+
+.createtimetable-create-tt-monday-inner{
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    /* border: 1px solid red; */
+    border-radius: 3px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.createtimetable-create-tt-monday-inner>div{
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.createtimetable-create-tt-monday-inner>div label{
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+}
+
+.createtimetable-create-tt-monday-inner>div  select{
+    border: none;
+    padding: 3px 5px;
+    background-color: #f1f1f6;
+    border-radius: 3px;
+    outline: none;
+
+}
+
+.createtimetable-create-submit-btn{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 3px 15px;
+    min-width: 190px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    min-height: 35px;
+    text-transform: capitalize;
+    border-radius: 3px;
+    background-color: #1268ca;
+    color: white;
+}
+
+.createtimetable-create-submit-btn:hover{
+    background-color: #0a4b96;
+    cursor: pointer;
+}

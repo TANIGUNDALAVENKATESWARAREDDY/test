@@ -1,0 +1,120 @@
+.viewstudents-get-allstudents{
+    width: 100%;
+    min-height: 130px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+/* viewstudents-getstudents-header */
+.viewstudents-getstudents-header{
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding:7px 10px
+}
+
+.viewstudents-getstudents-header>p{
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+/* viewstudents-choose-class-and-section */
+.viewstudents-choose-class-and-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding:20px
+
+}
+
+.viewstudents-choose-class-each{
+    display: flex;
+    
+    gap: 5px;
+    flex-direction: column;
+    flex: 1;
+}
+
+.viewstudents-choose-class-each>label{
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(129, 129, 129);
+}
+
+.viewstudents-choose-class-each>select{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background-color: #f1f1f6;
+    outline: none;
+}
+
+.viewstudents-choose-class-each>button{
+    min-height: 30px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 0.85rem;
+    background-color: #042954;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 0px 5px;
+}
+
+/* viewstudents-student-regid-link */
+.viewstudents-student-regid-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.viewstudents-student-regid-link>p{
+    width: fit-content;
+    padding: 4px 10px;
+    background-color: white;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.viewstudents-student-regid-link>p:hover{
+    background-color: rgb(252, 252, 252);
+}
+
+.viewstudents-show-students-table{
+    min-height: 70px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.viewstudents-show-students-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.viewstudents-show-students-header>p{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size:0.95rem;
+    color: gray;
+}
+
+.viewstudents-show-students-header>p span{
+    color: #042954;
+}

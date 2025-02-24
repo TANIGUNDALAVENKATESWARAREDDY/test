@@ -1,0 +1,77 @@
+.managecourses-add-course-form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin: 10px;
+}
+
+.managecourses-add-course-form-each{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.managecourses-subject-description>label,.managecourses-add-course-form-each>label{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+.managecourses-add-course-form-each>input{
+    outline: none;
+    /* border: 1px solid rgb(194, 194, 194); */
+    border: none;
+    height: 28px;
+    background-color: #f1f1f6;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.managecourses-subject-description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+    margin: 10px;
+}
+
+.managecourses-subject-description>textarea{
+    border: none;
+    min-height: 70px;
+    background-color: #f1f1f6;
+    border-radius: 3px;
+    resize: vertical;
+    outline: none;
+    padding: 5px;
+}
+
+.managecourses-button{
+    margin: 10px;
+}
+
+.managecourses-button>button{
+    width: fit-content;
+    padding: 3px 12px;
+    border: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    background-color: #042954;
+    color: white;
+    cursor: pointer;
+}
+
+
+.managecourses-button>button:focus{
+    background-color: #08458a;
+    outline: none;
+}
+
+.managecourses-button>button:hover{
+    background-color: #08458a;
+}

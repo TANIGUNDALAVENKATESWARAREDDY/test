@@ -1,0 +1,122 @@
+.studFeeHis_card-container {
+    display: flex;
+   flex-direction: column;
+   gap: 15px;
+   margin-top: 20px;
+}
+
+.studFeeHis_student-info {
+    display: flex;
+    align-items: center;
+    background-color: #ffd600;
+    padding: 20px;
+    min-width: 40%;
+    gap: 30px;
+    /* border-radius: 10px; */
+}
+
+.studFeeHis_student-info img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.studFeeHis_student-details {
+    line-height: 1.5;
+}
+
+.studFeeHis_student-details p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.studFeeHis_student-details span {
+    font-weight: 500;
+}
+
+.studInfo_value {
+    color: #595959;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.studFeeHis_fee-info {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+}
+
+.studFeeHis_table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.studFeeHis_table th, .studFeeHis_table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.studFeeHis_table th {
+    font-weight: bold;
+}
+
+.amount-paid {
+    color: green;
+}
+
+.fee-due {
+    color: red;
+}
+
+/* eachstudentfeehistory-paidnow */
+.eachstudentfeehistory-paidnow{
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to left, #03b400, #03a700, #039b00, #028e00, #028200);
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+/* eachstudentfeehistory-receiptnumber */
+.eachstudentfeehistory-receiptnumber{
+    font-weight: 600;
+    color: #042934;
+}
+
+/* studFeeHis_fee-info */
+.studFeeHis_fee-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    height: fit-content;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.studFeeHis_fee-info>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.studFeeHis_fee-info>div label{
+    text-transform: capitalize;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.studFeeHis_fee-info>div p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+

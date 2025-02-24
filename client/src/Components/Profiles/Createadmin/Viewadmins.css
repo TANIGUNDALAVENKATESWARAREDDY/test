@@ -1,0 +1,193 @@
+.viewadmin_con{
+    margin-bottom: 20px;
+}
+
+.viewadmins-container{
+    width: 100%;
+    min-height: 40px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.viewadmin_topimgsec{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.viewadmin_topimg img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.viewadmin_topinfo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.viewadmin_topname h2{
+    font-weight: 500;
+}
+
+.viewadmin_topname p{
+    color: #637887;
+}
+
+.viewadmin_topemp p{
+    background-color: #FFFFB5;
+    padding: 10px;
+    border-radius: 18;
+}
+
+.viewadmin_secondsection{
+    background-color: white;
+    /* padding: 20px; */
+    margin-top: 20px;
+}
+
+.viewadmin_wrkdetails{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CDE4FF;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.viewadmin_wrkdetails h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.viewadmin_wrkdetails p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.viewadmin_wrkdetails p span{
+    color: #0274F8;
+}
+
+.viewadmin_wrkdetails_con{
+    display: flex;
+    gap: 10%;
+    padding: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.viewadmin_wrkdetails_item h5{
+    color: #5D6A7A;
+    font-weight: 400;
+}
+
+.viewadmin_wrkdetails_item p{
+    font-weight: 400;
+}
+
+.viewadmin_personaldetails{
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.viewadmin_personaldetails h4{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.viewadmin_personalinfo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+/* show-application-whole-inner-table */
+.show-application-whole-inner-table>table tbody>tr .viewadmins-first-td{
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+    color:var(--second-color);
+}
+
+.show-application-whole-inner-table>table tbody>tr{
+    text-transform: capitalize;
+}
+
+.show-application-whole-inner-table>table tbody>tr .viewadmins-third-td{
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+    color:#1b7a00;
+}
+
+.show-application-whole-inner-table>table tbody>tr:hover{
+    background-color: #e0e0e0;
+}
+
+/* .show-application-whole-inner-table>table tbody>tr:nth-child(odd) td:nth-child(1){
+    font-weight: 500;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+    color:#1b7a00;
+} */
+
+@media screen and (max-width:600px) {
+    .viewadmin_topimg img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .viewadmin_topname h2 {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .viewadmin_topname p {
+        font-size: 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    .viewadmin_wrkdetails p{
+        font-size: 0.8rem;
+    }
+
+    .viewadmin_topemp p {
+        background-color: #FFFFB5;
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+
+    .viewadmin_wrkdetails h4 {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .viewadmin_wrkdetails_item p {
+        font-size: 0.8rem;
+    }
+
+    .viewadmin_personaldetails h4 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .viewadmin_wrkdetails_item h5 {
+        font-size: 0.7rem;
+    }
+
+    .viewadmin_personalinfo {
+        
+        padding-top: 0px;
+    }
+}

@@ -1,0 +1,7 @@
+.form-required-fields{
+    color:red;
+    font-style: italic;
+    font-size: 0.65rem;
+    text-transform: capitalize;
+    margin-top: -7px;
+}

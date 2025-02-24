@@ -1,0 +1,256 @@
+.addSubjectsToClass-container{
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    min-height: 100px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+}
+
+/* addSubjectsToClass-heading */
+.addSubjectsToClass-heading{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#042954;
+    margin-bottom: 15px;
+}
+
+/* addsubjectstoclass-table-container */
+.addsubjectstoclass-table-container{
+    /* width: 100%; */
+    /* padding: 10px; */
+    /* background-color: red; */
+    margin-top: 10px;
+    margin: 10px;
+    overflow-x: scroll;
+    /* overflow: hidden; */
+}
+
+
+.addsubjectstoclass-table-container>table{
+    /* background-color: white; */
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: scroll;
+    /* margin: 10px; */
+}
+
+.addsubjectstoclass-table-container>table thead>tr{
+    border: 1px solid rgb(201, 201, 201);
+    border-left: none;
+    border-right: none;
+    /* color: rgb(133, 133, 133); */
+}
+
+.addsubjectstoclass-table-container>table thead>tr th div{
+    min-height: 45px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.addsubjectstoclass-thead-row>th:nth-child(odd){
+    background-color: #f1f1f6;
+}
+
+/* addsubjectstoclass-tbody-row */
+.addsubjectstoclass-tbody-row{
+    border: 1px solid rgb(201, 201, 201);
+    border-left: none;
+    border-right: none;
+}
+.addsubjectstoclass-tbody-row>td:nth-child(odd){
+    text-align: center;
+    background: #f1f1f6;
+}
+
+.addsubjectstoclass-tbody-row-btn>button{
+    padding: 3px 7px;
+    border: none;
+    background-color: #042954;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.addsubjectstoclass-tbody-middle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 10px;
+    min-width: 170px;
+    padding: 10px;
+}
+
+.addsubjectstoclass-tbody-middle>div{
+    min-height: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+    padding: 3px 5px;
+    border-radius: 2px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.addsubjectstoclass-tbody-middle>div p{
+    user-select: none;
+    font-size: 0.89rem;
+    text-transform: capitalize;
+
+}
+
+.addsubjectstoclass-tbody-row-btn>button:hover{
+    background-color: #0b4586;
+    cursor: pointer;
+}
+
+.addsubjectstoclass-tbody-row-first>div{
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+}
+
+/* .addsubjectstoclass-tbody-closeicon{
+    cursor: pointer;
+    color: rgb(161, 161, 161);
+} */
+
+/* addsubjecttoclass-form */
+.addsubjecttoclass-form{
+    width: 600px;
+    padding: 20px;
+}
+
+.addsubjecttoclass-form-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.addsubjecttoclass-form-inner>div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.addsubjecttoclass-form-inner>div label{
+    font-size: 0.95rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.addsubjecttoclass-form-inner>div select{
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #f1f1f6;
+    padding-left: 5px;
+    outline: none;
+}
+
+.addsubjecttoclass-form-inner>div input{
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #f1f1f6;
+    padding-left: 5px;
+    outline: none;
+}
+/* button */
+
+.addsubjectstoclass-form-submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.addsubjectstoclass-form-submit>button{
+    padding: 3px 10px;
+    border: none;
+    background-color: #042954;
+    text-transform: capitalize;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.addsubjecttoclass-form-close{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* addsubjectstoclass0-alert-form-btns */
+.addsubjectstoclass0-alert-form-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.addsubjectstoclass0-alert-form-btns>p{
+    padding: 3px 10px;
+    /* background-color: red; */
+    border-radius: 5px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #0b4586;
+}
+
+.addsubjectstoclass0-alert-form-btns>p:hover{
+    background-color: rgba(11, 69, 134,0.1);
+    cursor: pointer;
+}
+
+/* .addsubjecttoclass-form-inner>div  */
+
+@media screen and (max-width:700px){
+    .addsubjecttoclass-form{
+        width: fit-content;
+    }
+
+    .addSubjectsToClass-heading{
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:350px){
+    .addsubjectstoclass-form-submit>button{
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .addSubjectsToClass-heading{
+        font-size: 0.95rem;
+    }
+}

@@ -1,0 +1,130 @@
+/* transportfeehistory-con */
+.transportfeehistory-con{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.transportfeehistory-con .transportfeehistory-search-and-total>h2{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    font-weight: 500;
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+}
+
+/* transportfeehistory-search-and-total */
+.transportfeehistory-search-and-total{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.transportfeehistory-search-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 7px;
+    background-color: #f1f1f6;
+    border-radius: 20px;
+}
+
+.transportfeehistory-search-field>input{
+    min-width: 200px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 0.9rem;
+}
+
+.transportfeehistory-search-and-total>p{
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.transportfeehistory-search-and-total>p span{
+    color: green;
+    padding-left: 5px;
+}
+
+.transportfeehistory-cls-filter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.transportfeehistory-cls-filter>select{
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #f1f1f6;
+}
+
+
+/* transport total fee */
+.transportfeehistory-totalfee{
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to left, #0056b9, #004b9f, #003f85, #00346c, #042954);
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.transportfeehistory-totalpaid{
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(to left, #03b400, #03a700, #039b00, #028e00, #028200);
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.transportfeehistory-totaldue{
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(133deg, rgba(225,0,1,1) 19%, rgba(253,144,144,1) 100%);
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.transportfeehistory-showmore{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+
+.transportfeehistory-showmore-btn{
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: #0056b9;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.transportfeehistory-showmore-btn:hover{
+    background-color: #054286;
+}
